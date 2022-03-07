@@ -1,4 +1,5 @@
 #pragma once
+#include <Flasher.h>
 
 void PassageDeParametres1(int p_v1, int &p_r1, int *p_p1);
 void PassageDeParametres2(int*& p_referencePointeur, int** p_pointeurPointeur);
