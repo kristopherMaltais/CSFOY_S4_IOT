@@ -1,7 +1,7 @@
 #include <Arduino.h>
 #include "Flasher.h"
 
-// Constructeur
+// Constructeur d'initialisation
 Flasher::Flasher(int p_pinDEL, int p_dureeAllumeeEteinte) : m_pinDEL(p_pinDEL), m_dureeAllumeeEteinte(p_dureeAllumeeEteinte)
 {
     Serial.end();

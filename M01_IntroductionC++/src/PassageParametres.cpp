@@ -47,5 +47,5 @@ void passageDeParametresReference(Flasher& p_flasher)
 // Exercice 3.1.4
 void passageDeParametresPointeur(Flasher* p_flasher)
 {
-    Serial.println("Par Pointeur - Flasher* p_flasher: " + String((uint16_t)(&p_flasher), HEX));
+    Serial.println("Par Pointeur - Flasher* p_flasher: " + String((uint16_t)(p_flasher), HEX));
 }
