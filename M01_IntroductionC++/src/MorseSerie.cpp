@@ -5,10 +5,10 @@
 
 void MorseSerie::afficherPoint()
 {
-    Serial.println("- "); 
+    Serial.print("- "); 
 }
 
 void MorseSerie::afficherTrait()
 {
-    Serial.println("--- "); 
+    Serial.print("--- "); 
 }
